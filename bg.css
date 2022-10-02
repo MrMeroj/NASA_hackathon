@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    margin: 20px;
+}
+p {
+    font-size: 30px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.models{
+    width: 200px;
+}
+.button {
+    display: block;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: 0.4s;
+    margin: 30px;
+    font-size: bold;
+  }
+  .button:hover{
+    background-color: navy;
+    font-size: bold;
+    border-color: navy;
+    box-shadow: 0px 0px 10px 5px navy;
+  }
+  .all-btn{
+    display: block;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: 0.4s;
+    margin: 30px;
+    font-size: bold;
+  }
+  .all-btn:hover{
+    background-color: navy;
+    font-size: bold;
+    border-color: navy;
+    box-shadow: 0px 0px 10px 5px navy;
+  }
+  .btn-sec{
+    vertical-align: middle;
+  }
